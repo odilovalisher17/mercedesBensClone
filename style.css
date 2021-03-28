@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+}
+.logo{
+    display: flex;
+    width: 300px;
+}
+.logo h3{
+    padding-top: 65px;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    padding: 40px 15px;
+    padding-top: 65px;
+}
+.nav ul li a:hover{
+    color: rgb(0, 132, 255);
+}
+.nav ul li a{
+    color: white;
+}
+.logo img{
+    width: 70px;
+    margin: 20px 30px;
+}
+
+/* Showcase */
+.showcase{
+    background: url("https://img.mercedes-benz-kiev.com/data/news/181-mercedes-benz-vision-avtr/181-Mercedes-Benz-vision-avtr-1.jpg") no-repeat center /cover;
+    height: 85vh;
+    padding: 50px 150px;
+}
+.lead{
+    color: white;
+    font-size: 50px;
+}
+.showcase button{
+    padding: 10px 20px;
+    background: gray;
+    color: white;
+}
+
+/* Input */
+.input{
+    background: rgb(31, 30, 30);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input input{
+    width: 80%;
+    padding: 10px;
+}
+
+/* About */
+.about{
+    background: black;
+    color: white;
+    padding-top: 120px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-right: 800px;
+}
+.about button{
+    padding: 10px 20px;
+    background: turquoise;
+    color: white;
+    border: none;
+}
+.images{
+    display: flex;
+    padding-top: 85px;
+}
+.images img{
+    padding-right: 20px;
+}
+.img1{
+    width:300px;
+    height: 200px;
+}
+.img2{
+    width:300px;
+    height: 200px;
+}
+.img3{
+    width:300px;
+    height: 200px;
+}
+.img4{
+    width:300px;
+    height: 200px;
+}
+
+/* Pictures */
+.pic{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   background: black;
+}
+.pic img:first-child{
+   grid-column: 1 /span 2;
+   grid-row: 1 /span 2;
+   width: 100%;
+   height: 100%;
+}
+.pic img:nth-child(10){
+   grid-column: 1 /span 2;
+   grid-row: 5 /span 2;
+   width: 100%;
+   height: 100%;
+}
+.pic img{
+   height: 250px;
+   width: 505px;
+   border: black solid 0.5px;
+}
+
+/* Footer */
+.footer{
+   background: black;
+   padding: 100px 30px;
+   color: white;
+}
+.heads{
+   padding-top: 30px;
+   display: flex;
+}
+.heads div{
+flex: 1;
+}
+.heads a{
+   color: white;
+}
+.heads a:hover{
+   color: teal;
+}
